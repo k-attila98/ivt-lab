@@ -7,6 +7,9 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<sonar.projectKey>k-attila98_ivt-lab</sonar.projectKey>
+  		<sonar.organization>k-attila98</sonar.organization>
+  		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
 	<dependencies>
@@ -48,10 +51,4 @@
 			</plugin>
 		</plugins>
 	</build>
-	
-	<properties>
-  		<sonar.projectKey>k-attila98_ivt-lab</sonar.projectKey>
-  		<sonar.organization>k-attila98</sonar.organization>
-  		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-	</properties>
 </project>
